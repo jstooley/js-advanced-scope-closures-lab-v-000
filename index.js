@@ -12,6 +12,6 @@ function produceDrivingRange(max_distance){
 }
 function produceTipCalculator(percent){
   return function tipPercent(fare){
-    return fare * tip
+    return fare * percent
   }
 }
