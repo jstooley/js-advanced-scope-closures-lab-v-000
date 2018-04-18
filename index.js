@@ -1,3 +1,5 @@
-function produceDrivingRange(){
-  
+function produceDrivingRange(distance){
+  return function withinRange () {
+    
+  }
 }
