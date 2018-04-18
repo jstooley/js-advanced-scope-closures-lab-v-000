@@ -1,5 +1,5 @@
 function produceDrivingRange(max_distance){
-  return function withinRange (distnace) {
+  return function withinRange (distance) {
     if (distance > max_distance){
       return false;
     } else{
