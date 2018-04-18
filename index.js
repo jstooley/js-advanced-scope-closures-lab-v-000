@@ -10,6 +10,8 @@ function produceDrivingRange(max_distance){
     }
   }
 }
-function produceTipCalculator(){
-  
+function produceTipCalculator(percent){
+  return function tipPercent(){
+
+  }
 }
