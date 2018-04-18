@@ -10,8 +10,3 @@ function produceDrivingRange(max_distance){
     }
   }
 }
-function distacneBetween(start,finish){
-  start = start.slice(0,2);
-  finsih = finish.slice(0,2);
-    return parseInt(finish) - parseInt(start)
-}
