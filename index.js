@@ -4,7 +4,7 @@ function produceDrivingRange(max_distance){
   let distance  = Math.abs(parseInt(finish) - parseInt(start));
 
     if(distance > max_distance){
-      return false;
+      return `${distance - max_distance} blocks out of range`;
     } else{
       return true;
     }
