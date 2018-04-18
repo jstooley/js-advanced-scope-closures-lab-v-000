@@ -10,3 +10,6 @@ function produceDrivingRange(max_distance){
     }
   }
 }
+function produceTipCalculator(){
+  
+}
