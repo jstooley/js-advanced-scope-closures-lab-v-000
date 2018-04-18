@@ -6,7 +6,7 @@ function produceDrivingRange(max_distance){
     if(distance > max_distance){
       return `${distance - max_distance} blocks out of range`;
     } else{
-      return `within range by ${distance - max_distance}`;
+      return `within range by ${max_distance - distance}`;
     }
   }
 }
